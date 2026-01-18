@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f9fa; 
+    color: #4a5568; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.logo-circular {
+    width: 140px;            
+    height: 140px;          
+    border-radius: 50%;
+    object-fit: cover; 
+    margin: 0 auto 20px auto; 
+    display: block; 
+}
+
+#titulo-principal {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    color: #1a202c;
+    margin: 0;
+}
+
+.slogan {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #718096;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cuadro-texto {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-left: 4px solid #a0aec0;
+    background-color: #fff;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 2rem;
+    color: #1a202c;
+    margin-top: 50px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #718096;
+    margin-bottom: 40px;
+}
+
+.contenedor-tarjetas {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    display: inline-block; 
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    
+    vertical-align: top; 
+    text-align: center;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.tarjeta h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0;
+}
+
+/* BOTONES Y DETALLES */
+.boton {
+    display: inline-block;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #1a202c;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: #1a202c;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+li {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #718096;
+}
+
+/* FORMULARIO */
+#contacto {
+    background-color: #e2e8f0;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.contenedor-formulario {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.boton-negro {
+    background-color: #1a202c;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.boton-negro:hover {
+    background-color: #000;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1a202c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer a {
+    color: #cbd5e0;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* RESPONSIVO*/
+@media (max-width: 768px) {
+    #titulo-principal {
+        font-size: 2.5rem;
+    }
+
+    .tarjeta {
+        display: block; 
+        width: 100%;
+        max-width: 350px;
+        margin: 20px auto;
+    }
+}
